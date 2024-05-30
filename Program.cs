@@ -1,5 +1,7 @@
 using Simulacro1_Solid.Data;
-using Simulacro1_Solid.Services;
+using Simulacro1_Solid.Services.Authors;
+using Simulacro1_Solid.Services.Editorials;
+using Simulacro1_Solid.Services.Books;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +24,8 @@ builder.Services.AddDbContext<BaseContext>(Options =>
 
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IEditorialRepository, EditorialRepository>();
 
 var app = builder.Build();
 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Simulacro1_Solid.Data;
 using Simulacro1_Solid.Models;
-using Simulacro1_Solid.Services;
+using Simulacro1_Solid.Services.Authors;
 
-namespace Simulacro1_Solid.Services
+namespace Simulacro1_Solid.Services.Authors
 {
     public class AuthorRepository : IAuthorRepository
     {

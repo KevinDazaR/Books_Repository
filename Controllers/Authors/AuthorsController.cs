@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Simulacro1_Solid.Services;
+using Simulacro1_Solid.Services.Authors;
 using Simulacro1_Solid.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Simulacro1_Solid.Controllers.Authors
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Simulacro1_Solid.Models;
 
-namespace Simulacro1_Solid.Services
+namespace Simulacro1_Solid.Services.Authors
 {
     public interface IAuthorRepository
     {

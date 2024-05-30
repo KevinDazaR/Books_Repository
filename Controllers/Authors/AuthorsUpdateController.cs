@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore; // Important for StatusCodes
 using Simulacro1_Solid.Models;
-using Simulacro1_Solid.Services;
+using Simulacro1_Solid.Services.Authors;
 
 namespace Simulacro1_Solid.Controllers.Authors
 {
