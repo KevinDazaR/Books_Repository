@@ -22,12 +22,15 @@ namespace Simulacro1_Solid.Models
 
         public string ? Description {get;set;}
 
+        public string ? State {get;set;}
+        
         [Required]
         public int ? AuthorId {get;set;}
+        public Author Author {get;set;}
         
         [Required]
         public int ? EditorialId {get;set;}
-        
-        public string ? State {get;set;}
+        public Editorial Editorial {get;set;}
+
     }
 }

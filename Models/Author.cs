@@ -22,8 +22,8 @@ namespace Simulacro1_Solid.Models{
         
         public string ? State {get;set;}
 
-        // [JsonIgnore]
-        // public List<Book> ? Books {get;set;}
+        [JsonIgnore]
+        public List<Book> ? Books {get;set;}
 
     }
 }
